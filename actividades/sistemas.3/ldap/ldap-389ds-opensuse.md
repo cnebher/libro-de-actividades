@@ -123,9 +123,9 @@ Log file is '/tmp/setupuofQkd.log'
 
 ## 2.3 Comprobamos el acceso al contenido del LDAP
 
-* `ldapsearch -b "dc=ldap42,dc=curso1920" -x | grep dn`, muestra el contenido de nuestra base de datos LDAP.
+* `ldapsearch -b "dc=ldapXX,dc=curso1920" -x | grep dn`, muestra el contenido de nuestra base de datos LDAP.
 * Comprobar que existen las OU Groups y People.
-* `ldapsearch -H ldap://localhost -b "dc=ldap42,dc=curso1920" -W -D "cn=Directory Manager" | grep dn`, en este caso hacemos la consulta usando usuario/clave.
+* `ldapsearch -H ldap://localhost -b "dc=ldapXX,dc=curso1920" -W -D "cn=Directory Manager" | grep dn`, en este caso hacemos la consulta usando usuario/clave.
 
 | Parámetro                   | Descripción                |
 | --------------------------- | -------------------------- |
