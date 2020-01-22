@@ -81,7 +81,7 @@ Existen muchos repositorios desde donde podemos descargar la cajas de Vagrant (I
 * [HashiCorp's Atlas box catalog](https://atlas.hashicorp.com/boxes/search)
 Incluso podemos descargarnos cajas con Windows, GNU/Linux con entorno gráfico, BSD, etc.
 
-En este curso1819 vamos a usar los siguientes valores:
+En este curso1920 vamos a usar los siguientes valores:
 * **BOXURL**: https://cloud-images.ubuntu.com/vagrant/trusty/20181207/trusty-server-cloudimg-i386-vagrant-disk1.box
 * **BOXNAME**: `ubuntuXX`
 
